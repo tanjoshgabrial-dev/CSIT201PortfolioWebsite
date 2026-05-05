@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Activity 11 - Loops</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            <h3>For Loop</h3>
+            <label>Enter number:</label>
+            <input type="number" id="forNum"><br>
+            <label>Enter text:</label>
+            <input type="text" id="forText"><br>
+            <button class="btn-show" onclick="runForLoop()">Show</button>
+            <button class="btn-clear" onclick="clearBox('for')">Clear</button>
+            <div id="forResults" class="results"></div>
+        </div>
+
+        <div class="box">
+            <h3>While Loop</h3>
+            <label>Enter number:</label>
+            <input type="number" id="whileNum"><br>
+            <label>Enter text:</label>
+            <input type="text" id="whileText"><br>
+            <button class="btn-show" onclick="runWhileLoop()">Show</button>
+            <button class="btn-clear" onclick="clearBox('while')">Clear</button>
+            <div id="whileResults" class="results"></div>
+        </div>
+
+        <div class="box">
+            <h3>Do-While Loop</h3>
+            <label>Enter number:</label>
+            <input type="number" id="doWhileNum"><br>
+            <label>Enter text:</label>
+            <input type="text" id="doWhileText"><br>
+            <button class="btn-show" onclick="runDoWhileLoop()">Show</button>
+            <button class="btn-clear" onclick="clearBox('doWhile')">Clear</button>
+            <div id="doWhileResults" class="results"></div>
+        </div>
+    </div>
+
+    <script src="script11.js"></script>
+</body>
+</html>

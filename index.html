@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Josh Gabrial A. Tan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <div class="nav-logo">JT</div>
+    <button id="navToggle">☰</button>
+    <ul id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <img
+      src="Images/profile.jpg"
+      alt="Profile Photo"
+      class="hero-photo"
+      onerror="this.src='https://placehold.co/140x140/1a1a2e/6c63ff?text=JT'"
+    />
+    <h1>Josh Gabrial A. Tan</h1>
+    <p class="hero-sub">1st Year BSIT Student &nbsp;·&nbsp; Cebu Institute of Technology</p>
+    <div class="hero-buttons">
+      <a href="#about" class="btn-primary">About Me</a>
+      <a href="#portfolio" class="btn-ghost">View Portfolio</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-wrap">
+        <img
+          src="Images/profile.jpg"
+          alt="About Me"
+          class="about-img"
+          onerror="this.src='https://placehold.co/240x280/1a1a2e/6c63ff?text=JT'"
+        />
+        <div class="about-text">
+          <h3>Josh Gabrial A. Tan</h3>
+          <p class="about-role">BSIT Student</p>
+          <p>I'm a first-year BSIT student at Cebu Institute of Technology, born and raised in Cebu City, Philippines.</p>
+          <br>
+          <p>I'm a self-taught freelance game developer with experience in 3D modeling and graphic design. In my free time I play video games and sleep.</p>
+          <div class="about-details">
+            <span>tanjoshgabrial@gmail.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="alt-bg">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-list">
+
+        <div class="edu-list-item">
+          <strong>Bachelor of Science in Information Technology</strong> — Cebu Institute of Technology
+          <span>(2025 – Present)</span>
+        </div>
+
+        <div class="edu-list-item">
+          <strong>Senior High School</strong> — University of San Carlos North Campus
+          <span>(2023 – 2025)</span>
+        </div>
+
+        <div class="edu-list-item">
+          <strong>High School</strong> — Exceed Learning Center
+          <span>(2018 – 2023)</span>
+        </div>
+
+        <div class="edu-list-item">
+          <strong>Elementary</strong> — Exceed Learning Center
+          <span>(2012 – 2018)</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>3D Modelling</h3>
+          <p>Blender</p>
+        </div>
+        <div class="skill-card">
+          <h3>Graphic Design</h3>
+          <p>Adobe Photoshop</p>
+        </div>
+        <div class="skill-card">
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JS</p>
+        </div>
+        <div class="skill-card">
+          <h3>Game Development</h3>
+          <p>Freelance</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="alt-bg">
+    <div class="container">
+      <h2 class="section-title">Portfolio</h2>
+
+      <div class="portfolio-grid">
+
+        <!-- Personal Website -->
+        <div class="portfolio-card" data-category="project">
+          <div class="card-thumb project-thumb">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div class="card-info">
+            <h3>Personal Website</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Jollibee Website -->
+        <div class="portfolio-card" data-category="project">
+          <div class="card-thumb jollibee-thumb">
+            <i class="fas fa-burger"></i>
+          </div>
+          <div class="card-info">
+            <h3>Jollibee Website</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="jollibee.html" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Activity 1 -->
+        <div class="portfolio-card" data-category="activity">
+          <div class="card-thumb act1-thumb">
+            <span class="act-num">01</span>
+          </div>
+          <div class="card-info">
+            <h3>Activity 1 – About Me Page</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="activity1.html" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Activity 2 -->
+        <div class="portfolio-card" data-category="activity">
+          <div class="card-thumb act2-thumb">
+            <span class="act-num">02</span>
+          </div>
+          <div class="card-info">
+            <h3>Activity 2 – Lists</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="activity2.html" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Activity 3 -->
+        <div class="portfolio-card" data-category="activity">
+          <div class="card-thumb act3-thumb">
+            <span class="act-num">03</span>
+          </div>
+          <div class="card-info">
+            <h3>Activity 3 – Image Table</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="activity3.html" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Activity 4 -->
+        <div class="portfolio-card" data-category="activity">
+          <div class="card-thumb act4-thumb">
+            <span class="act-num">04</span>
+          </div>
+          <div class="card-info">
+            <h3>Activity 4 – HTML Form</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="activity4.html" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Activity 4v2 -->
+        <div class="portfolio-card" data-category="activity">
+          <div class="card-thumb act4v2-thumb">
+            <span class="act-num">4v2</span>
+          </div>
+          <div class="card-info">
+            <h3>Activity 4v2 – Styled Form</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="activity4v2.html" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Activity 5 -->
+        <div class="portfolio-card" data-category="activity">
+          <div class="card-thumb act5-thumb">
+            <span class="act-num">05</span>
+          </div>
+          <div class="card-info">
+            <h3>Activity 5 – Jollibee iframe</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="activity5.html" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Activity 7 -->
+        <div class="portfolio-card" data-category="activity">
+          <div class="card-thumb act7-thumb">
+            <span class="act-num">07</span>
+          </div>
+          <div class="card-info">
+            <h3>Activity 7 – JavaScript Date</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="activity7.html" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Activity 8 -->
+        <div class="portfolio-card" data-category="activity">
+          <div class="card-thumb act8-thumb">
+            <span class="act-num">08</span>
+          </div>
+          <div class="card-info">
+            <h3>Activity 8 – Alert Box</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="activity8.html" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Activity 9 -->
+        <div class="portfolio-card" data-category="activity">
+          <div class="card-thumb act9-thumb">
+            <span class="act-num">09</span>
+          </div>
+          <div class="card-info">
+            <h3>Activity 9 – Prompt Box</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="activity9.html" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Activity 10 -->
+        <div class="portfolio-card" data-category="activity">
+          <div class="card-thumb act10-thumb">
+            <span class="act-num">10</span>
+          </div>
+          <div class="card-info">
+            <h3>Activity 10 – Arithmetic Operators</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="activity10.html" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Activity 11 -->
+        <div class="portfolio-card" data-category="activity">
+          <div class="card-thumb act11-thumb">
+            <span class="act-num">11</span>
+          </div>
+          <div class="card-info">
+            <h3>Activity 11 – JavaScript Loops</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="activity11.html" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p class="footer-name">Josh Gabrial A. Tan</p>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> Josh Gabrial A. Tan. All rights reserved.</p>
+  </footer>
+
+  <a href="#hero" id="backToTop" title="Back to top">↑</a>
+
+  <script src="main.js"></script>
+</body>
+</html>
