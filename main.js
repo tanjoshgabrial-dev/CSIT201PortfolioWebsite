@@ -18,12 +18,6 @@ for (var i = 0; i < links.length; i++) {
   });
 }
 
-// Portfolio filter
-var filterBtns = document.querySelectorAll('.filter-btn');
-var portfolioCards = document.querySelectorAll('.portfolio-card');
-
-filterBtns.forEach(function (btn) {
-  btn.addEventListener('click', function () {
     // Set active button
     filterBtns.forEach(function (b) { b.classList.remove('active'); });
     btn.classList.add('active');
@@ -37,8 +31,7 @@ filterBtns.forEach(function (btn) {
         card.classList.add('hidden');
       }
     });
-  });
-});
+
 
 // Back to top button
 var backToTop = document.getElementById('backToTop');
