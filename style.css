@@ -392,14 +392,19 @@ section { padding: 5rem 0; }
 .card-link {
   font-size: 0.8rem;
   font-weight: 600;
-  color: var(--accent);
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  transition: gap 0.2s;
+  color: var(--white);
+  background: var(--accent);
+  display: inline-block;
+  padding: 0.45rem 1rem;
+  border-radius: 6px;
+  border: 1.5px solid var(--accent);
+  transition: background 0.2s;
 }
 
-.card-link:hover { gap: 0.55rem; }
+.card-link:hover {
+  background: var(--accent-dark);
+  color: var(--white);
+}
 
 /* ============================
    FOOTER
