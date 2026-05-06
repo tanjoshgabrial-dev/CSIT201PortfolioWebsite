@@ -407,6 +407,21 @@ section { padding: 5rem 0; }
 }
 
 /* ============================
+   CONTACT
+   ============================ */
+.contact-email {
+  font-size: 0.95rem;
+  color: var(--mid);
+  margin-bottom: 1.5rem;
+}
+
+.map-wrap {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+/* ============================
    FOOTER
    ============================ */
 footer {
